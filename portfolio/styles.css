@@ -1,0 +1,338 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    color: #053b75;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #053b75;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+ 
+header h1 {
+    margin: 0;
+    font-size: 18px;
+    color: violet;
+}  
+
+header .socials {
+    display: flex;
+    gap: 10px;
+}
+
+header .socials img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Section Styling */
+section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#about {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+#about div {
+    flex: 1;
+}
+
+#about img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#about .about-content {
+    padding-right: 20px;
+}
+
+#about h2,
+#about h3,
+#about p {
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#about h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: violet;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#about button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* CSS for Skills */
+#skills {
+    padding: 50px 20px;
+    background-color: #053b75;
+}
+
+#skills h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 2px solid;
+}
+
+/* CSS for Hobbies */
+#hobbies {
+    padding: 50px 20px;
+}
+
+#hobbies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hobbies ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+#hobbies li {
+    background-color: #053b75;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+/* Project Section using CSS Grid */
+#projects {
+    padding: 50px 20px;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #053b75;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card h3 {
+    color: violet;
+    font-weight: 500;
+}  
+
+.project-card p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Family Table */
+#family {
+    padding: 50px 20px;
+}
+
+#family h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #053b75;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #053b75;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+form label {
+    font-size: 14px;
+    color: white;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #053b75;
+    color: white;
+    margin-top: 20px;
+}

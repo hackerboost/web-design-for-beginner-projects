@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Sahadev</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#hobbies">My Hobbies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#family">My Family</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="socials">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener"><img src="./assets/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.github.com" target="_blank" rel="noopener"><img src="./assets/github.png" alt="github"></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"><img src="./assets/twitter.png" alt="github"></a>   
+            </div>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div>
+            <img src="./assets/sahabia.jpg" alt="profile">
+        </div>
+        <div class="about-content">
+            <h2>Hi, I am Sahabia</h2>
+            <h3>Web Developer</h3>
+            <p>I am a web developer passionate about building amazing websites using HTML and CSS.</p>
+
+            <button>Contact Me</button>
+        </div>
+      
+    </section>
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Flexbox & Grid</li>
+            <li>Web Development</li>
+        </ul>
+    </section>
+    
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading Books</li>
+            <li>Playing Chess</li>
+            <li>Traveling</li>
+            <li>Coding Projects</li>
+            <li>Listening to Music</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built using HTML, CSS, and Flexbox. It showcases my skills, projects, and contact details in a structured and visually appealing format.</p>
+            </div>
+            <div class="project-card">
+                <h3>HTML Resume</h3>
+                <p>A simple and elegant resume designed using only HTML and CSS. It includes my education, experience, and skills, following a clean and structured layout.</p>
+            </div>
+            <div class="project-card">
+                <h3>Travel Bucket</h3>
+                <p>A webpage listing my dream travel destinations. Built using CSS Grid for layout, it features destination images, descriptions, and a structured itinerary plan.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="family">
+        <h2>My Family Members</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Relationship</th>
+            </tr>
+            <tr>
+                <td>Dawuni Chenti</td>
+                <td>50</td>
+                <td>Father</td>
+            </tr>
+            <tr>
+                <td>Apoore Dorcas</td>
+                <td>45</td>
+                <td>Mother</td>
+            </tr>
+            <tr>
+                <td>Yumzaa Dawuni</td>
+                <td>20</td>
+                <td>Sister</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sahadev Portfolio</p>
+    </footer>
+</body>
+</html>
